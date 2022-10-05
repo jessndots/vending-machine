@@ -1,0 +1,42 @@
+.VM-machine {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40vh;
+  height: 75vh;
+  max-height: 100vh;
+  justify-content: center;
+  border-style: solid;
+  align-content: flex-center;
+  background-color: silver;
+}
+
+.VM-item {
+  display: flex;
+  height: 15vh;
+  width: 15vh;
+  border-style: solid;
+  border-radius: 3px;
+  margin: 1vh;
+  justify-content: center;
+  background-color: white;
+}
+
+.VM-link {
+  align-self: center;
+}
+
+.VM-title {
+  display: flex;
+  width: 30vh;
+  margin: 1vh;
+  font-size: x-small ;
+  justify-content: center;
+}
+
+.VM-dispense {
+  margin: 1vh;
+  border-style: solid;
+  width: 32vh;
+  height: 10vh;
+  background-color: gray;
+}
